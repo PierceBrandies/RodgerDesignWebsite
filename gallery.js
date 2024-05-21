@@ -21,7 +21,7 @@ const photoNames = [
   'IMG_2235.jpg',
 
   // Riverstone
-  'IMG_6888.jpg',
+  'IMG_6887.jpg',
   'IMG_6854.jpg',
   'IMG_6858.jpg',
   'IMG_6860.jpg',
@@ -29,6 +29,9 @@ const photoNames = [
   // Belinda
   'IMG_0114.jpg',
   'IMG_2698.jpg',
+
+  // Valerie
+  'IMG_0322.jpg',
 
   // Lashon
   'IMG_6578.jpg',
@@ -83,9 +86,10 @@ const photoNames = [
   // Kevin
   'IMG_4752.jpg',
 
-  // Hallway
+  // Lynne
   'IMG_4845.jpg',
   'IMG_4958.jpg',
+  'IMG_0411.jpg',
 
   // Tony
   'IMG_6560.jpg',
@@ -100,6 +104,7 @@ const photoNames = [
   'IMG_5084.jpg',
   'IMG_5098.jpg',
   
+  // Gwenn vanity
   'IMG_5425.jpg',
 
   // Island
@@ -116,6 +121,9 @@ const photoNames = [
   'IMG_8506.jpg',
   'IMG_6618.jpg',
   'IMG_8676.jpg',
+
+  // Cat
+  'IMG_6995.jpg',
 
   // Danielle
   'IMG_8600.jpg',
@@ -150,8 +158,6 @@ for (const photoName of photoNames) {
   // First if conditional can be changed to change arrangement of bottom image row
   if (x == 61) {
     column3.appendChild(imgElement);
-  } else if (x == 65) {
-    column1.appendChild(imgElement);
   } else if (counter == 1) {
     column1.appendChild(imgElement);
   } else if (counter == 2) {
